@@ -58,3 +58,7 @@ run.bat in commandline CMD windows
 
 Results of the simulations are put in the folder out according to the choose topology
 
+###  the video tutorial link
+
+https://youtu.be/oYBNFZAtFR0
+
