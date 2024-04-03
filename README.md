@@ -1,4 +1,4 @@
-# cascading-failure-EON-Simulator
+# EON-Simulator
 cascading-failure-EON-Simulator
 
 # Elastic Optical Network Simulator
