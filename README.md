@@ -15,7 +15,7 @@ These instructions will guide you to run this simulator.
 
 ### Installing
 
-It requires: python 3, networkx , numpy, decorator
+It requires: python 3, simpy, networkx , numpy, decorator
 
 ######
 
@@ -44,11 +44,15 @@ import simpy
 
 print (simpy.\_\_version\_\_)
 
-
+check the variables ambient python in the system
 
 ### Run the simulator
 
-python EON_SIM.py
+Pre fist run  
+pip install networkx simpy numpy decorator
+
+
+run.bat in commandline CMD windows
 
 ### Results
 
