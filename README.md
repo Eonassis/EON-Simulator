@@ -1,3 +1,69 @@
+## Descrição da Demonstração para o SBRC
+A demonstração planejada para o Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC) apresenta o uso do simulador EON-Simulator para avaliação de desempenho em redes ópticas elásticas (EON) sob falhas em cascata.
+
+## Equipamentos Necessários
+Para realizar a demonstração, os seguintes equipamentos são necessários:
+
+## Computador ou Servidor
+Um computador ou servidor capaz de executar o simulador EON-Simulator.
+Sistema operacional compatível com Python 3 (por exemplo, Windows, Linux ou macOS).
+Conexão à internet para instalação de dependências e acesso a recursos externos, como vídeos tutoriais.
+Software Requerido
+Além dos equipamentos físicos, o seguinte software deve estar instalado:
+
+## Python 3
+
+Versão 3.x do Python instalada no sistema operacional.
+Pode ser obtido em python.org.
+Bibliotecas Python
+
+As seguintes bibliotecas Python devem estar instaladas:
+simpy
+networkx
+numpy
+decorator
+Estas podem ser instaladas via pip, um gerenciador de pacotes para Python.
+
+Para executar o Python 3 e o simulador EON-Simulator com as bibliotecas mencionadas, um computador com pelo menos 4 GB de RAM e um processador de 3 GHz alem de 10Gb de espaco em disco disponivel, seria uma configuração mínima recomendada. 
+
+
+## Simulador EON-Simulator
+
+O código fonte do simulador EON-Simulator, disponível em GitHub.
+Certifique-se de clonar ou baixar o repositório para o sistema local.
+Instruções de Execução
+Para executar o simulador EON-Simulator e realizar a avaliação de desempenho em redes ópticas elásticas sob falhas em cascata, siga estas instruções:
+
+## Instalação de Dependências
+
+Abra um terminal ou prompt de comando.
+Execute o comando pip install networkx simpy numpy decorator para instalar as bibliotecas Python necessárias.
+
+## Execução do Simulador
+
+Navegue até o diretório onde o simulador EON-Simulator está localizado.
+Execute o arquivo run.bat no prompt de comando do Windows.
+Verificação das Variáveis de Ambiente Python
+
+## Para verificar se as variáveis de ambiente do Python estão configuradas corretamente, execute os comandos:
+
+import sys
+print(sys.version)
+
+import networkx
+print(networkx.__version__)
+
+import simpy
+print(simpy.__version__)
+
+
+## Resultados da Simulação
+
+Os resultados da simulação serão colocados na pasta 'out' de acordo com a topologia escolhida.
+Recursos Adicionais
+Para mais informações sobre como executar o simulador EON-Simulator, consulte o tutorial em vídeo disponível em https://youtu.be/oYBNFZAtFR0.
+
+
 # EON-Simulator
 cascading-failure-EON-Simulator
 
