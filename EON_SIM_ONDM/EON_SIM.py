@@ -20,7 +20,7 @@ ERLANG_INC = 50
 REP = 2
 
 #numero de requisicoes padrao 100.000 100000
-NUM_OF_REQUESTS = 100000
+NUM_OF_REQUESTS = 100
 
 #tramanho das bandas >>>>>> MEXER NO CODIGO AO ALTERAR BANDAS >>>>
 BANDWIDTH = [100, 150, 200, 250, 300, 350, 400]
